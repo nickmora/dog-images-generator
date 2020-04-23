@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dog-images-generator/precache-manifest.36b611207d3cbeb13c12553511b979b3.js"
+  "/dog-images-generator/precache-manifest.c1718758328ff5d1d071bafd5adee42b.js"
 );
 
 self.addEventListener('message', (event) => {
