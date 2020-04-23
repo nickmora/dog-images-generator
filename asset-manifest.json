@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/dog-image-generator/static/css/main.d1b05096.chunk.css",
-    "main.js": "/dog-image-generator/static/js/main.ab2c30a0.chunk.js",
-    "main.js.map": "/dog-image-generator/static/js/main.ab2c30a0.chunk.js.map",
-    "runtime-main.js": "/dog-image-generator/static/js/runtime-main.b9c96a62.js",
-    "runtime-main.js.map": "/dog-image-generator/static/js/runtime-main.b9c96a62.js.map",
-    "static/js/2.99b7bd2c.chunk.js": "/dog-image-generator/static/js/2.99b7bd2c.chunk.js",
-    "static/js/2.99b7bd2c.chunk.js.map": "/dog-image-generator/static/js/2.99b7bd2c.chunk.js.map",
-    "index.html": "/dog-image-generator/index.html",
-    "precache-manifest.0807fcde5663ef1a8b357715e8f20ef2.js": "/dog-image-generator/precache-manifest.0807fcde5663ef1a8b357715e8f20ef2.js",
-    "service-worker.js": "/dog-image-generator/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/dog-image-generator/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.99b7bd2c.chunk.js.LICENSE.txt": "/dog-image-generator/static/js/2.99b7bd2c.chunk.js.LICENSE.txt",
-    "static/media/Infinity-2.5s-357px.gif": "/dog-image-generator/static/media/Infinity-2.5s-357px.8ca07674.gif"
+    "main.css": "/dog-images-generator/static/css/main.d1b05096.chunk.css",
+    "main.js": "/dog-images-generator/static/js/main.68b7d407.chunk.js",
+    "main.js.map": "/dog-images-generator/static/js/main.68b7d407.chunk.js.map",
+    "runtime-main.js": "/dog-images-generator/static/js/runtime-main.02ba1879.js",
+    "runtime-main.js.map": "/dog-images-generator/static/js/runtime-main.02ba1879.js.map",
+    "static/js/2.3a622071.chunk.js": "/dog-images-generator/static/js/2.3a622071.chunk.js",
+    "static/js/2.3a622071.chunk.js.map": "/dog-images-generator/static/js/2.3a622071.chunk.js.map",
+    "index.html": "/dog-images-generator/index.html",
+    "precache-manifest.9551fbe5279fcbdb18e2390d2255e44b.js": "/dog-images-generator/precache-manifest.9551fbe5279fcbdb18e2390d2255e44b.js",
+    "service-worker.js": "/dog-images-generator/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/dog-images-generator/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.3a622071.chunk.js.LICENSE.txt": "/dog-images-generator/static/js/2.3a622071.chunk.js.LICENSE.txt",
+    "static/media/Infinity-2.5s-357px.gif": "/dog-images-generator/static/media/Infinity-2.5s-357px.8ca07674.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9c96a62.js",
-    "static/js/2.99b7bd2c.chunk.js",
+    "static/js/runtime-main.02ba1879.js",
+    "static/js/2.3a622071.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.ab2c30a0.chunk.js"
+    "static/js/main.68b7d407.chunk.js"
   ]
 }
