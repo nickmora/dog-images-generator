@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a05827950eada5097300c7b3e7cfce1",
+    "revision": "d6134247063c9720637e9ad98f911466",
     "url": "/dog-images-generator/index.html"
   },
   {
-    "revision": "dc3956c039b5a1d40746",
+    "revision": "410220611308f491d699",
     "url": "/dog-images-generator/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dog-images-generator/static/js/2.d71aacc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc3956c039b5a1d40746",
-    "url": "/dog-images-generator/static/js/main.ac34dfe2.chunk.js"
+    "revision": "410220611308f491d699",
+    "url": "/dog-images-generator/static/js/main.3c8f2bc4.chunk.js"
   },
   {
     "revision": "85c7cc376af86c952e48",

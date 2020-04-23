@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dog-images-generator/static/css/main.d1b05096.chunk.css",
-    "main.js": "/dog-images-generator/static/js/main.ac34dfe2.chunk.js",
-    "main.js.map": "/dog-images-generator/static/js/main.ac34dfe2.chunk.js.map",
+    "main.js": "/dog-images-generator/static/js/main.3c8f2bc4.chunk.js",
+    "main.js.map": "/dog-images-generator/static/js/main.3c8f2bc4.chunk.js.map",
     "runtime-main.js": "/dog-images-generator/static/js/runtime-main.02ba1879.js",
     "runtime-main.js.map": "/dog-images-generator/static/js/runtime-main.02ba1879.js.map",
     "static/js/2.d71aacc4.chunk.js": "/dog-images-generator/static/js/2.d71aacc4.chunk.js",
     "static/js/2.d71aacc4.chunk.js.map": "/dog-images-generator/static/js/2.d71aacc4.chunk.js.map",
     "index.html": "/dog-images-generator/index.html",
-    "precache-manifest.c1718758328ff5d1d071bafd5adee42b.js": "/dog-images-generator/precache-manifest.c1718758328ff5d1d071bafd5adee42b.js",
+    "precache-manifest.d894c6483196ed584f861fc361c94f47.js": "/dog-images-generator/precache-manifest.d894c6483196ed584f861fc361c94f47.js",
     "service-worker.js": "/dog-images-generator/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/dog-images-generator/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.d71aacc4.chunk.js.LICENSE.txt": "/dog-images-generator/static/js/2.d71aacc4.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.02ba1879.js",
     "static/js/2.d71aacc4.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.ac34dfe2.chunk.js"
+    "static/js/main.3c8f2bc4.chunk.js"
   ]
 }
