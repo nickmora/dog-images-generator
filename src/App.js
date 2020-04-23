@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import ImageCard from './_components/ImageCard';
+import { Container } from '@material-ui/core';
 
 function App() {
+  const [dogImage, setDogImage] = useState(null);
+  useEffect(() => {
+    if (!dogImage) {
+      fetch("https://dog.ceo/api/breed/mountain/bernese/images/random")
+        .then(resp => {
+          console.log(resp);
+          return resp.json();
+        })
+        .then(data => {
+          console.log(data);
+          return setDogImage(data.message);
+        })
+    }
+  })
+  const getNewImage = () => setDogImage(null);
   return (
+    console.log(dogImage),
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <ImageCard image={dogImage} reset={getNewImage} />
+      </Container>
     </div>
   );
 }
