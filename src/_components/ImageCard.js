@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Card, CardActions, Button, Grid, Paper } from "@material-ui/core";
+const loadingImage = require("../media/Infinity-2.5s-357px.gif")
 const ImageCard = (props) => {
     //     const downloadImage = () =>{
     //         console.log(props.image)
@@ -24,24 +25,15 @@ const ImageCard = (props) => {
             <Card>
                 <Paper style={{ padding: 15 }}>
                     <Grid item xs={12}>
-                        {!props.loading ? (
-                            props.image ? (
-                                console.log("rendering image..."),
+                        {
+                            console.log("rendering image..."),
+                            <Fragment>
                                 <img
-                                    style={{ height: "100%" }}
-                                    src={props.image}
+                                    style={{ height: "auto", maxHeight: "100%", maxWidth:1250 }}
+                                    src={!props.loading ? props.image : loadingImage }
                                     alt="A joyous looking dog"
-                                />) :
-                                <Fragment>
-                                    <p>Loading...</p>
-                                    <img src={require("../media/Infinity-2.5s-357px.gif")} />
-                                </Fragment>
-                        ) : (
-                                <Fragment>
-                                    <p>Loading...</p>
-                                    <img src={require("../media/Infinity-2.5s-357px.gif")} />
-                                </Fragment>
-                            )
+                                />
+                            </Fragment>
                         }
                     </Grid>
                 </Paper>
