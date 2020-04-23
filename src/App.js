@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ImageCard from './_components/ImageCard';
-import { Container } from '@material-ui/core';
+import { Container} from '@material-ui/core';
+import mainStyle from "./mainStyle.js";
+import HeaderBar from './_components/HeaderBar';
+import Footer from './_components/Footer';
 
 function App() {
   const [dogImage, setDogImage] = useState(null);
@@ -20,11 +23,12 @@ function App() {
   }, [dogImage])
   const getNewImage = () => setDogImage(null);
   return (
-    console.log(dogImage),
     <div className="App">
+      <HeaderBar />
       <Container>
         <ImageCard image={dogImage} reset={getNewImage} />
       </Container>
+      <Footer />
     </div>
   );
 }

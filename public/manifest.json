@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dog Images Generator",
+  "name": "An app that returns you random images of dogs, because why not?",
   "icons": [
     {
       "src": "favicon.ico",
