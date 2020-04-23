@@ -7,7 +7,7 @@ function App() {
   const [dogImage, setDogImage] = useState(null);
   useEffect(() => {
     if (!dogImage) {
-      fetch("https://dog.ceo/api/breed/mountain/bernese/images/random")
+      fetch("https://dog.ceo/api/breeds/image/random")
         .then(resp => {
           console.log(resp);
           return resp.json();
@@ -17,7 +17,7 @@ function App() {
           return setDogImage(data.message);
         })
     }
-  })
+  }, [dogImage])
   const getNewImage = () => setDogImage(null);
   return (
     console.log(dogImage),
