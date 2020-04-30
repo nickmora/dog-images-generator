@@ -22,16 +22,16 @@ const ImageCard = (props) => {
     //     }
     return (
         <Grid style={{ paddingTop: 150 }} container spacing={10} justify="center">
-            <Card style = {{padding:15}}>
+            <Card style={{ padding: 15 }}>
                 <Paper style={{ padding: [15, 15, 15, 0] }}>
                     <Grid item xs={12}>
-                            <Fragment>
-                                <img
-                                    style={{ height: "auto", maxHeight: "100%", maxWidth:1250 }}
-                                    src={!props.loading ? props.image : loadingImage }
-                                    alt="A joyous looking dog"
-                                />
-                            </Fragment>
+                        <Fragment>
+                            <img
+                                style={{ height: "auto", maxHeight: "100%", maxWidth: 1250 }}
+                                src={props.image ? props.image : loadingImage}
+                                alt="A joyous looking dog"
+                            />
+                        </Fragment>
                     </Grid>
                 </Paper>
                 <CardActions>

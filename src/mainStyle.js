@@ -24,7 +24,8 @@ const mainStyle = makeStyles(() => ({
         "& a:visited:active": {
             color: "black",
         }
-    }
+    },
+    
 }))
 
 export default mainStyle
